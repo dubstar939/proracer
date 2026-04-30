@@ -2,25 +2,22 @@
 # Dependencies
 node_modules/
 
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
 # Build artifacts
 dist/
 build/
 target/
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
 
 # Python
 __pycache__/
@@ -28,28 +25,28 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+env/
 venv/
 .venv/
-.venv.bak/
-.env.bak/
+.ENV
+.python-version
+.pytest_cache/
+.mypy_cache/
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # OS
 .DS_Store
 Thumbs.db
 
-# MyPy
-.mypy_cache/
-
-# PyTest
-.pytest_cache/
-
-# Gradle
-.gradle/
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip

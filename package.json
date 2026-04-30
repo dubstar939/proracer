@@ -4,7 +4,6 @@
   "description": "Retro arcade racing game - production ready",
   "scripts": {
     "dev": "npx http-server . -p 8080 -c-1",
-    "build": "node build.js",
     "serve": "npx http-server dist -p 3000"
   },
   "keywords": ["racing", "arcade", "game", "retro"],
